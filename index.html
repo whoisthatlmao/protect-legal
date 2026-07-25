@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGU & Politique de Confidentialité - AstaProtect Discord Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --accent-color: #6366f1;
+            --accent-hover: #4f46e5;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+            --success-color: #22c55e;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+        }
+
+        header h1 span {
+            color: var(--accent-color);
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        nav a {
+            color: var(--text-main);
+            text-decoration: none;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.5rem 1.2rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+            border: 1px solid var(--border-color);
+        }
+
+        nav a:hover {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 0.75rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #e2e8f0;
+        }
+
+        p, ul {
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-size: 0.975rem;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            position: absolute;
+            left: 0.25rem;
+            top: -0.25rem;
+        }
+
+        .notice-box {
+            background: rgba(99, 102, 241, 0.1);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .notice-box p {
+            margin-bottom: 0;
+            color: #cbd5e1;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🛡️ <span>AstaProtect</span> Bot</h1>
+        <p>Conditions Générales d'Utilisation (CGU) & Politique de Confidentialité (Privacy Policy)</p>
+        <p><small>Dernière mise à jour : 25 juillet 2026</small></p>
+        <nav>
+            <a href="#tos">Conditions d'Utilisation</a>
+            <a href="#privacy">Politique de Confidentialité</a>
+            <a href="#contact">Contact & Demandes</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- CONDITIONS GENERALES D'UTILISATION -->
+        <section id="tos">
+            <h2 class="section-title">1. Conditions Générales d'Utilisation (Terms of Service)</h2>
+
+            <h3>1.1. Acceptation des conditions</h3>
+            <p>En invitant ou en utilisant le bot <strong>AstaProtect</strong> sur votre serveur Discord, vous acceptez sans réserve les présentes Conditions Générales d'Utilisation. Si vous n'acceptez pas ces conditions, vous devez retirer le bot de vos serveurs.</p>
+
+            <h3>1.2. Description du service</h3>
+            <p>AstaProtect est un bot Discord conçu pour la modération, la protection contre le raid / nuke / spam, la gestion des avertissements, les tickets de support et la configuration de règles de sécurité au sein des serveurs Discord.</p>
+
+            <h3>1.3. Conditions d'accès et utilisation autorisée</h3>
+            <ul>
+                <li>Vous devez respecter les <a href="https://discord.com/terms" target="_blank" style="color: var(--accent-color);">Conditions d'Utilisation de Discord</a> et la <a href="https://discord.com/guidelines" target="_blank" style="color: var(--accent-color);">Charte de la Communauté Discord</a>.</li>
+                <li>Il est strictly interdit d'exploiter des failles ou de tenter de surcharger l'infrastructure du bot (attaques par déni de service, spam de commandes).</li>
+                <li>Le bot ne doit pas être utilisé sur des serveurs promouvant des activités illégales, du harcèlement ou du contenu malveillant.</li>
+            </ul>
+
+            <h3>1.4. Disponibilité & Responsabilité</h3>
+            <p>AstaProtect est fourni "en l'état" (AS IS). Les développeurs s'efforcent d'assurer une disponibilité maximale mais ne garantissent pas un fonctionnement ininterrompu. Les développeurs ne saurient être tenus responsables des pertes de données, des modérations accidentelles ou des interruptions de service.</p>
+        </section>
+
+        <!-- POLITIQUE DE CONFIDENTIALITE -->
+        <section id="privacy">
+            <h2 class="section-title">2. Politique de Confidentialité (Privacy Policy)</h2>
+
+            <div class="notice-box">
+                <p><strong>Conformité Discord Developer Terms :</strong> Nous ne collectons et n'utilisons que les données strictement nécessaires au bon fonctionnement des fonctionnalités de sécurité et de modération du bot.</p>
+            </div>
+
+            <h3>2.1. Données collectées</h3>
+            <p>AstaProtect stocke dans sa base de données sécurisée (MongoDB) uniquement les informations suivantes :</p>
+            <ul>
+                <li><strong>Identifiants Discord (IDs) :</strong> Identifiants des serveurs (Guild IDs), des salons (Channel IDs), des rôles (Role IDs) et des utilisateurs (User IDs) nécessaires à l'attribution des sanctions (warns, jails) et aux whitelists/blacklists.</li>
+                <li><strong>Configurations du serveur :</strong> Préférences relatives aux modules de sécurité (seuils anti-spam/raid, rôle de vérification, salon de logs, mots interdits).</li>
+                <li><strong>Logs de modération :</strong> Historique des avertissements (warns) attribués aux membres et statut des tickets de support.</li>
+            </ul>
+            <p><em>Note : Le bot ne stocke pas le contenu de vos messages textuels sur ses serveurs de façon permanente. Les messages sont analysés en mémoire temps réel uniquement pour détecter le spam ou les liens malveillants.</em></p>
+
+            <h3>2.2. Utilisation des données</h3>
+            <p>Les données collectées sont utilisées exclusivement pour :</p>
+            <ul>
+                <li>Assurer le fonctionnement des filtres de sécurité (Anti-Spam, Anti-Raid, Anti-Nuke, Anti-Link).</li>
+                <li>Conserver la configuration choisie par l'administrateur du serveur.</li>
+                <li>Permettre le suivi des avertissements et modérations.</li>
+            </ul>
+
+            <h3>2.3. Conservation et Partage des données</h3>
+            <ul>
+                <li>Les données sont conservées aussi longtemps que le bot reste sur le serveur ou jusqu'à la réinitialisation/suppression de la configuration.</li>
+                <li><strong>Aucune donnée n'est vendue, louée ou partagée avec des tiers.</strong></li>
+            </ul>
+
+            <h3>2.4. Suppression des données et droits des utilisateurs (RGPD)</h3>
+            <p>Conformément au RGPD et aux règles de Discord, vous disposez d'un droit d'accès, de rectification et de suppression de vos données.</p>
+            <ul>
+                <li><strong>Expulsion du bot :</strong> Si le bot est expulsé d'un serveur, vous pouvez demander la suppression complète des données associées à ce serveur.</li>
+                <li><strong>Demande de suppression individuelle :</strong> Vous pouvez demander l'effacement de vos logs de modération ou avertissements en contactant l'équipe support.</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2 class="section-title">3. Contact & Support</h2>
+            <p>Pour toute question concernant ces CGU, la Politique de Confidentialité ou pour exercer vos droits de suppression de données :</p>
+            <ul>
+                <li><strong>Serveur Discord Support :</strong> <a href="#" style="color: var(--accent-color);">Joindre le serveur Discord</a></li>
+                <li><strong>Contact Développeur :</strong> Votre Tag Discord / Email de contact</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AstaProtect Bot. Tous droits réservés. Non affilié officiellement à Discord Inc.</p>
+    </footer>
+</div>
+
+</body>
+</html>
