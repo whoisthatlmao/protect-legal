@@ -12,7 +12,7 @@
 
 ## 🔗 Liens Utiles & Légaux
 
-- 📜 **[Conditions Générales d'Utilisation (CGU) & Politique de Confidentialité](https://whoisthatlmao.github.io/protect-legal/)**
+- 📜 **<a href="https://whoisthatlmao.github.io/protect-legal/" target="_blank" rel="noopener noreferrer">Conditions Générales d'Utilisation (CGU) & Politique de Confidentialité</a>**
 - 🌐 **Dashboard Web** : Inclus dans le projet (Flask & Tailwind/Modern UI)
 
 ---
@@ -21,7 +21,7 @@
 
 ### 🛡️ Sécurité & Anti-Nuke
 - **Anti-Nuke Avancé** : Protection automatique contre la suppression massive de salons, rôles ou bannissements suspects.
-- **Anti-Raid & Anti-Spam** : Détection intelligente des joies massives, des répétitions de messages, liens non autorisés et spams de mentions.
+- **Anti-Raid & Anti-Spam** : Détection intelligente des joins massives, des répétitions de messages, liens non autorisés et spams de mentions.
 - **Anti-GhostPing** : Détection et sanction des pings invisibles / rapides.
 - **Filtre de Mots Interdits (Badwords)** : Modération automatique du vocabulaire avec système d'avertissements et de mutes.
 
@@ -51,35 +51,7 @@
 
 ---
 
-## 🚀 Installation & Lancement Local
 
-### 1. Prérequis
-- Python 3.10 ou supérieur installé.
-- Une base de données MongoDB (ex: cluster gratuit MongoDB Atlas).
-- Une application Bot créée sur le [Discord Developer Portal](https://discord.com/developers/applications).
-
-### 2. Cloner le projet & Installer les dépendances
-```bash
-git clone https://github.com/whoisthatlmao/protect-legal.git
-cd protect-legal
-pip install -r requirements.txt
-```
-
-### 3. Configuration (.env)
-Créez un fichier `.env` à la racine du projet et remplissez vos informations :
-
-```env
-DISCORD_TOKEN=votre_token_bot_discord
-MONGO_URI=votre_uri_mongodb
-CLIENT_ID=votre_client_id_discord
-CLIENT_SECRET=votre_client_secret_discord
-SECRET_KEY=cle_secrete_dashboard_flask
-```
-
-### 4. Démarrer le Bot & le Dashboard
-```bash
-python bot.py
-```
 
 ---
 
@@ -106,10 +78,10 @@ python bot.py
 En utilisant ou en hébergeant **Protect**, vous acceptez nos Conditions Générales d'Utilisation et notre Politique de Confidentialité. 
 
 Pour consulter les informations complètes sur le traitement des données et les CGU, visitez la page dédiée :
-👉 **https://whoisthatlmao.github.io/protect-legal/**
+👉 **<a href="https://whoisthatlmao.github.io/protect-legal/" target="_blank" rel="noopener noreferrer">https://whoisthatlmao.github.io/protect-legal/</a>**
 
 ---
 
 <p align="center">
-  Fait avec ❤️ par <b>whoisthatlmao</b> — Protect Security Team
+  Fait avec ❤️ par <b>ad44/b> — Protect Security Team
 </p>
