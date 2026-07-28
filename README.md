@@ -83,5 +83,5 @@ Pour consulter les informations complètes sur le traitement des données et les
 ---
 
 <p align="center">
-  Fait avec ❤️ par <b>ad44/b> — Protect Security Team
+  Fait avec ❤️ par <b>ad44</b> — Protect Security Team
 </p>
